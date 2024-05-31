@@ -32,7 +32,7 @@ async function checkweather(){
         weatherIcon.src="mist.png";
     }
     else if(data.weather[0].main == "Clear"){
-        weatherIcon.src="Clear.png";
+        weatherIcon.src="clear.png";
     }
     else if(data.weather[0].main == "Clouds"){
         weatherIcon.src="clouds.png";
