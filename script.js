@@ -22,7 +22,6 @@ async function checkweather(){
     }
 
     var data = await responce.json()
-    console.log(data)
     city.innerHTML = data.name;
     temp.innerHTML = Math.round(data.main.temp) + "°C";
     humidity.innerHTML = data.main.humidity + "%";
